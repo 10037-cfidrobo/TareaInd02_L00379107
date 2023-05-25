@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Capitulo 2 - Formulario</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/Comandante.css">
+
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-3">
+        <div class="login-container">
+          <div class="jumbotron">
+            <h1 class="login-heading">Login</h1>
+            <div>
+              <img src="img/logo.jpeg" class="img-responsive img-circle small-image" alt="Sample image">
+            </div>
+            <form class="form-horizontal custom-form">
+              <div class="form-group input-group">
+                <span class="input-group-addon">
+                  <span class="glyphicon glyphicon-user"></span>
+                </span>
+                <input type="email" class="form-control" name="email" placeholder="&#9000; Correo Comandante..." required>
+              </div>
+              <div class="form-group input-group">
+                <span class="input-group-addon">
+                  <span class="glyphicon glyphicon-lock"></span>
+                </span>
+                <input type="password" class="form-control" name="password" placeholder="&#128272; Contraseña Comandante..." required>
+              </div>
+              <div class="form-group">
+                <label>
+                  <input type="checkbox">
+                  Recordar Usuario
+                </label>
+              </div>
+              <div class="form-group text-center">
+                <button class="btn btn-primary login-button glyphicon glyphicon-log-in"> Login</button>
+              </div>
+              <div class="form-group text-right">
+                <a href="#" class="forget-password-link">Olvido la contraseña?</a>
+              </div>
+            </form>
+          </div>
+          
+          <a href="index.html" class="btn btn-primary">Regresar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/vendor/jquery-1.11.2.min.js"></script>
+  <script src="js/vendor/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
