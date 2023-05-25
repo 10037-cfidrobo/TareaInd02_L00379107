@@ -1,38 +1,41 @@
-
 body {
-    background-image: url('/img/fondo.jpg');
-    background-size: cover;
-    background-position: center;
-  }
-  .login-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-   
-  }
-  
-  .login-heading {
-    text-align: center;
-    margin-top: 0;
-    width: 300px;
-  }
-  
-  .small-image {
-    width: 100px;
-    height: auto;
-    margin-left: 100px;
-   
-  }
-  
-  .custom-form {
-    max-width: 300px;
-    margin: 0 auto;
-  }
-  .text-center {
-    text-align: center;
-  }
+  background-image: url('/img/fondo.png');
+  background-image: url("https://ecuador.unir.net/wp-content/uploads/sites/8/2017/07/UNIR-ESPE-Acuerdo.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+}
+
+.login-heading {
+  text-align: center;
+  margin-top: 0;
+  width: 300px;
+}
+
+.small-image {
+  width: 100px;
+  height: auto;
+  margin-left: 100px;
+
+}
+
+.custom-form {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .text-right {
-text-align: right;
-}  
+  text-align: right;
+}
